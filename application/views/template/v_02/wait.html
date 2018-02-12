@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<head>
+  <title>ข้อมูลการลารายบุคคล</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body >
+<div class="container" align=right>
+  <br><br>
+  <button type="button" class="btn btn-default">รอการอนุมัติ</button> 
+  <button type="button" class="btn btn-default">อนุมัติ</button>
+  <button type="button" class="btn btn-default">ไม่อนุมัติ</button>
+</div>
+</body>
+</html>
+<br>
+<div class="container">                                         
+  <div class="dropdown" >
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">เดือน
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li><a href="#">มกราคม</a></li>
+        <li><a href="#">กุมภาพันธ์</a></li>
+        <li><a href="#">มีนาคม</a></li>
+        <li><a href="#">เมษายน</a></li>
+        <li><a href="#">พฤษภาคม</a></li>
+        <li><a href="#">มิถุนายน</a></li>
+        <li><a href="#">กรกฎาคม</a></li>
+        <li><a href="#">สิงหาคม</a></li>
+        <li><a href="#">กันยายน</a></li>
+        <li><a href="#">ตุลาคม</a></li>
+        <li><a href="#">พฤศจิกายน</a></li>
+        <li><a href="#">ธันวาคม</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container" >                                         
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">ปี
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li><a href="#">ปีทั้งหมด</a></li>
+        <li><a href="#">2559</a></li>
+        <li><a href="#">2558</a></li>
+        <li><a href="#">2557</a></li>
+        <li><a href="#">2556</a></li>
+        <li><a href="#">2555</a></li>
+        <li><a href="#">2554</a></li>
+        <li><a href="#">2553</a></li>
+        <li><a href="#">2552</a></li>
+        <li><a href="#">2551</a></li>
+        <li><a href="#">2550</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="container" >                                
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">วัน/เดือน/ปี
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+    <input type="date" class="form-control" id="usr" name="date1">
+    </ul>
+  </div>
+</div>
+
+
+</body>
+
+<br>
+<center><h3>เดือน มกราคม เรียงตาม วัน/เดือน/ปี </h3></center>
+<div class="container">
+<table class="table table-striped" border="1">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>วันที่เริ่มต้น</th>
+        <th>วันที่สิ้นสุด</th>
+        <th>รหัสประจำตัว</th>
+        <th>ชื่อ-สกุล</th>
+        <th>ตำแหน่ง</th>
+        <th>ประเภทการลา</th>
+        <th>สาเหตุการลา</th>
+        <th>ดำเนินการ</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+
+        <td>1</td>
+
+        <td>01/01/2553</td>
+
+        <td>01/01/2553</td>
+
+        <td>57160188</td>
+
+        <td>นาย อนพัทย์  เมืองชล</td>
+
+        <td>นิสิต</td>
+
+        <td>ลาป่วย</td>
+	<td>ปวดท้อง</td>
+	<td><input type="radio" name="optradio">&nbspอนุมัติ &nbsp
+	<input type="radio" name="optradio">&nbspไม่อนุมัติ</td>
+
+      </tr>
+
+      <tr>
+
+        <td>2</td>
+
+        <td>04/01/2553</td>
+
+        <td>05/01/2553</td>
+
+        <td>57160399</td>
+
+        <td>นางสาว  ประภาพร  ศรีสัมฤทธิ์</td>
+
+        <td>อาจารย์</td>
+
+        <td>ลากิจส่วนตัว</td>
+	<td>ทำธุระส่วนตัว</td>
+	<td><input type="radio" name="optradio">&nbspอนุมัติ &nbsp
+	<input type="radio" name="optradio">&nbspไม่อนุมัติ</td>
+
+      </tr> 
+     <tr>
+
+        <td>3</td>
+
+        <td>12/01/2553</td>
+
+        <td>15/01/2553</td>
+
+        <td>57160562</td>
+
+        <td>นาย ธิติ  แพรวพราย</td>
+
+        <td>อาจารย์</td>
+
+        <td>ลากิจ</td>
+	<td>เที่ยวกับครอบครัว</td>
+	<td><input type="radio" name="optradio">&nbspอนุมัติ &nbsp
+	<input type="radio" name="optradio">&nbspไม่อนุมัติ</td>
+
+      </tr>	  
+	  <tr>
+
+        <td>4</td>
+
+        <td>18/01/2553</td>
+
+        <td>21/01/2553</td>
+
+        <td>57160403</td>
+
+        <td>นาย ชินวัฒน์  สินนารายณ์</td>
+
+        <td>นิสิต</td>
+
+        <td>ลาป่วย</td>
+	<td>ไม่สบาย</td>
+	<td><input type="radio" name="optradio">&nbspอนุมัติ &nbsp
+	<input type="radio" name="optradio">&nbspไม่อนุมัติ</td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>
+<h4 align=right>รวมการลาทั้งสิน 4 คน</h4></center>
+</body>
+</html>
+    
+
+   
